@@ -54,9 +54,7 @@ public class BinaryTree {
     }
 
     public static void main(String[] args) {
-
         BinaryTree binaryTree = new BinaryTree();
-
         for (int i = 0; i < 10; i++) {
             binaryTree.addNode(new Random().nextInt(10));
         }
